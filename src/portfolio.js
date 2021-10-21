@@ -1,71 +1,85 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+
+  homepage: 'https://skfaiz1930.github.io/portfolio',
+  title: 'Sk.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+
+  name: 'Shaikh Faizan',
+  role: 'Software Engineer',
+  description: "Hello, my name is Shaikh Faizan, and I am a 2021 graduate in BSc IT. I am a front - end Web Developer and Programmer living in Mumbai looking for a good opportunity. I have a diverse set of skills ranging from Android Development to Web Development.",
+  resume: 'https://drive.google.com/file/d/100yaec6wVPnzB9SzxIOnHPcenFkaCDVP/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: '',
+    github: 'https://github.com/skfaiz1930',
   },
 }
 
-const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
-  {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+const projects = [{
+    name: 'Covid19 Tracker',
+    description: 'COVID-19 Tracker and map using Javascript and Chart.js.',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/skfaiz1930/Covid19-Tracker/',
+    livePreview: 'https://skfaiz1930.github.io/Covid19-Tracker/',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Coffee Shop Landing Page',
+    description: 'Product landing page using HTML, CSS and JavaScript.',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/skfaiz1930/Coffee-landing-page',
+    livePreview: 'https://skfaiz1930.github.io/Coffee-landing-page/',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Find Jobs',
+    description: 'Tech Jobs Finding Application using HTML, CSS and JavaScript.',
+    stack: ['HTML', 'CSS', 'Javascript'],
+    sourceCode: 'https://github.com/FindJobs/',
+    livePreview: 'https://skfaiz1930.github.io/FindJobs/',
+  },
+  {
+    name: 'Elearning Android Application',
+    description: 'Elearning Android Application using Java, Firebase and Jdoodle Compiler Api.',
+    stack: ['Java', 'Firebase'],
+    sourceCode: 'https://github.com/skfaiz1930/E-Learning-App',
+    livePreview: 'https://github.com/skfaiz1930/E-Learning-App',
+  },
+  {
+    name: 'HashGenerator',
+    description: 'An app to encrypt any text message using SHA256, SHA512 and MD5 alogirthm.',
+    stack: ['Java', 'Algorithm'],
+    sourceCode: 'https://github.com/skfaiz1930/HashGenerator',
+    livePreview: 'https://github.com/skfaiz1930/HashGenerator',
+  },
+  {
+    name: 'VoiceRecoder',
+    description: 'A simple voice recording android application',
+    stack: ['Java'],
+    sourceCode: 'https://github.com/skfaiz1930/VoiceRecoder',
+    livePreview: 'https://github.com/skfaiz1930/VoiceRecoder',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
+
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Java',
+  'Python',
+  'C++'
+
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'skfaiz0929@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export {
+  header,
+  about,
+  projects,
+  skills,
+  contact
+}
